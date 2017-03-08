@@ -1,0 +1,26 @@
+<footer>
+
+  <nav>
+    <ul class="nav">
+      <li class=" active first">
+        <a href="/">Home</a>
+      </li>
+      <li class="">
+        <a href="/collections">Products</a>              
+      </li>
+      <li class="">
+        <a href="/search">Search</a>
+      </li>
+      <li class=" last">
+        <a href="/blogs/news">Blog</a>
+      </li>
+    </ul>
+
+    <ul class="social-links">
+      {% include 'social_links' %}
+    </ul>
+  </nav>
+  
+  <p>Copyright © {{ "now" | date: "%Y" }} {% if settings.title %}{{ settings.title }}{% else %}{{ shop.name }}{% endif %}</p>
+
+</footer>

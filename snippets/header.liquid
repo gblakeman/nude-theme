@@ -1,0 +1,14 @@
+<header>
+  <h1>
+    {% unless template == 'index' %}<a href="/">{% endunless %}
+      {% if settings.title %}{{ settings.title }}{% else %}{{ shop.name }}{% endif %}
+    {% unless template == 'index' %}</a>{% endunless %}
+  </h1>
+  {% if page_title %}<h2>{{ page_title }}</h2>{% endif %}
+
+  <nav class="cart-link">
+    <a href="/cart">Cart {{ cart.item_count }} {{ cart.item_count | pluralize: 'item', 'items' }} ({{ cart.total_price | money }})</a>
+  </nav>
+
+  {% include 'search_form' %}
+</header>

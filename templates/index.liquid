@@ -26,7 +26,7 @@
 {% assign collection = collections[settings.homepage_collection] %}
 <ul class="grid clearfix">
 {% for product in collection.products %}
-  {% include 'product-grid-item' with 'three-per-row' %}
+  {% include 'product-item' %}
 {% else %}
 <li>
   <p>

@@ -1,0 +1,12 @@
+{% if settings.facebook_url %}
+  <li class="facebook"><a href="https://{{ settings.facebook_url | replace:'https://','' | replace:'http://','' }}" title="Follow us on Facebook" target="_blank">Facebook</a></li>
+{% endif %}
+{% if settings.twitter_username %}
+  <li class="twitter"><a href="https://twitter.com/{{ settings.twitter_username | replace:'https://','' | replace:'http://','' }}" title="Follow us on Twitter" target="_blank">Twitter</a></li>
+{% endif %}
+{% if settings.ello_username %}
+  <li class="ello"><a href="https://ello.co/{{ settings.ello_username | replace:'https://','' | replace:'http://','' }}" title="Follow us on Pinterest" target="_blank">Ello</a></li>
+{% endif %}
+{% if settings.instagram_username %}
+  <li class="instagram"><a href="https://instagram.com/{{ settings.instagram_username | replace:'https://','' | replace:'http://','' }}" title="Follow us on Instagram" target="_blank">Instagram</a></li>
+{% endif %}
