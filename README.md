@@ -14,7 +14,7 @@ The Nude theme is a stripped down Shopify theme, to be used as a â€œblank slateâ
 
 Getting started
 ---------------------
-1. [Download](https://github.com/gblakeman/nude-theme/archive/v1.0.zip) the latest version (1.0)
+1. [Download](https://github.com/gblakeman/nude-theme/archive/v1.0.1.zip) the latest version (1.0.1)
 2. or clone the git repo: `git clone https://github.com/gblakeman/nude-theme.git`
 
 Basic structure
