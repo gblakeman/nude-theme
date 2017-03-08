@@ -1,0 +1,21 @@
+<li class="product {% unless product.available %} sold-out{% endunless %}">
+
+  <a href="{{ product.url | within: collection }}">
+    <span class="image">  
+      <a href="{{ product.url | within: collection }}">
+        <img src="{{ product | img_url: 'grande' }}" alt="{{ product.featured_image.alt | escape }}" />
+      </a>
+    </span>
+    
+    <span class="text">
+      <span class="title">
+        {{ product.title }}
+      </span>    
+      <span class="price">
+        {% if product.price_varies %}from{% endif %}
+        {{ product.price | money }}
+      </span>
+    </span>
+  </a>
+  
+</li>

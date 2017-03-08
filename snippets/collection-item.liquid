@@ -1,0 +1,17 @@
+<li class="collection">
+
+  <a href="{{ collection.url }}">
+    <span class="image">
+      {% if collection.image %}
+        <img src="{{ collection | img_url: 'grande' }}" alt="{{ collection.image.alt | escape }}" />
+      {% else %}
+        <img src="{{ collection.products.first | img_url: 'grande' }}" alt="{{ collection.title | escape }}" />
+      {% endif %}
+    </span>
+    
+    <span class="text">
+      {{ collection.title }}
+    </span>
+  </a>
+
+</li>

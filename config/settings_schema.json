@@ -1,0 +1,145 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Nude",
+    "theme_author": "gb Studio",
+    "theme_version": "1.0.0",
+    "theme_documentation_url": "https://github.com/gblakeman/nude-theme",
+    "theme_support_email": "hello@grantblakeman.com"
+  },
+  {
+    "name": "Main Settings",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "A few settings for the site."
+      },
+      {
+        "type": "header",
+        "content": "General Settings"
+      },
+      {
+         "type":      "text",
+         "id":        "title",
+         "label":     "Site Title",
+         "default":   "Best Site Ever",
+         "placeholder": "Sub-title"
+      },
+      {
+         "type":      "text",
+         "id":        "subtitle",
+         "label":     "Site Sub-title",
+         "default":   "Making Shopify Themes sane again.",
+         "placeholder": "Sub-title"
+      },
+      {
+        "type": "header",
+        "content": "Facebook / Open Graph"
+      },
+      {
+        "type": "paragraph",
+        "content": "A few settings for Facebook/Slack social sharing"
+      },
+      {
+         "type":      "textarea",
+         "id":        "meta_description",
+         "label":     "<meta> Description",
+         "placeholder": "<meta> Description",
+         "default":   "Making Shopify Themes sane again. A super-slim, few assumptions, starter theme.",
+         "info": "(also used in Facebook/Slack sharing widgets)"
+      },
+      {
+         "type":      "text",
+         "id":        "fb_site_name",
+         "label":     "Facebook Share Name",
+         "placeholder": "Facebook Share Name",
+         "default":   "Shopify Nude"
+      },
+      {
+         "type":      "text",
+         "id":        "fb_app_id",
+         "label":     "Facebook App ID",
+         "placeholder": "Facebook App ID",
+         "default":   "000000000000000"
+      },
+      {
+        "type": "header",
+        "content": "Social Links"
+      },
+      {
+        "type": "paragraph",
+        "content": "Links to social networks."
+      },
+      {
+         "type":      "text",
+         "id":        "facebook_url",
+         "label":     "Facebook",
+         "placeholder": "Facebook URL",
+         "default":   "facebook.com/something"
+      },
+      {
+         "type":      "text",
+         "id":        "twitter_username",
+         "label":     "Twitter",
+         "placeholder": "Username (@something)",
+         "default":   "@something"
+      },
+      {
+         "type":      "text",
+         "id":        "ello_username",
+         "label":     "Twitter",
+         "placeholder": "Username (@something)",
+         "default":   "@something"
+      },
+      {
+         "type":      "text",
+         "id":        "instagram_username",
+         "label":     "Instagram",
+         "placeholder": "Username (@something)",
+         "default":   "@something"
+      }
+    ]
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color",
+        "id": "color_primary",
+        "label": "Primary",
+        "default": "#fff",
+        "info": "Used for text links, and primary buttons"
+      },
+      {
+        "type": "color",
+        "id": "color_secondary",
+        "label": "Secondary",
+        "default": "#000",
+        "info": "Used for contrast"
+      },
+      {
+        "type": "color",
+        "id": "color_buttons",
+        "label": "Action Buttons",
+        "default": "#00d100",
+        "info": "Used for action buttons"
+      },
+      {
+        "type": "color",
+        "id": "color_body_bg",
+        "label": "Background",
+        "default": "#333"
+      },
+      {
+        "type": "color",
+        "id": "color_error",
+        "label": "Error colors",
+        "default": "#ff364f"
+      }
+    ]
+  }
+]

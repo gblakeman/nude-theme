@@ -1,25 +1,21 @@
-Skeleton theme
+Nude theme
 ============
 
-The Skeleton theme is a simplified Shopify theme, to be used as a "blank slate" starting point for theme designers.
+The Nude theme is a stripped down Shopify theme, to be used as a “blank slate” starting point. It started as a fork of the [Skeleton Theme](https://github.com/Shopify/skeleton-theme) from Shopify. I tend to build stores for clients that are smaller in scope and found myself spending too much time un-doing a lot of the code in the _Skeleton Theme_ to get it to a point where I could start my own work. I also tend to pre-build sites in [Jekyll](https://jekyllrb.com/) (because it’s easier to work with), so this base theme incorporates some of that thinking.
 
-<b>Features:</b>
-- Almost no theme settings. Ready to be customized any way you want. 
-- Only ~500 lines of CSS including comments. 
-- Despite its 500 lines of CSS code, it is responsive and has styled drop-down menus.
-- Include SVG images to style select elements and cart icon.
-- Commented code to teach you Liquid concepts in practice.
+**Features:**
 
-<b>Demo:</b>
-
-- [Demo store](http://skeleton.myshopify.com/)
-
-Designing a store for a client? Earn 20% revenue through our <a href="http://www.shopify.com/partners">Partner program<a/>.
+- Some sensible theme settings that aren’t as easily over-ridden in the Shopify admin.
+- A totally blank slate on CSS.
+- An almost entirley blank slate on JS.
+- Virtually no HTML. There is a limited structure meant to either be built upon, or reset entirely.
+- The assets directory is basically empty except for some icons and social meta images that I use as placeholders.
+- Some features have been removed since I pretty much never use them: _customer login_, and _blog comments_ are the two primary features missing.
 
 Getting started
 ---------------------
-1. <a href="https://github.com/Shopify/skeleton-theme/archive/master.zip">Download</a> the latest version
-2. or clone the git repo: <code>git clone https://github.com/Shopify/skeleton-theme.git</code>
+1. <a href="https://github.com/gblakeman/nude-theme/archive/master.zip">Download</a> the latest version
+2. or clone the git repo: <code>git clone https://github.com/gblakeman/nude-theme.git</code>
 
 Basic structure
 ---------------
@@ -48,7 +44,9 @@ Basic structure
 
 Additional resources
 ---------------------
-- <a href="http://meetup.shopify.com/">Free workshops</a>: Sign up for a free Shopify For Designers workshop in a city near you.
-- <a href="http://docs.shopify.com/themes">Theme Documentation</a>: Learn more about Liquid and theme templates.
-- <a href="http://apps.shopify.com/desktop-theme-editor">Desktop Theme Editor</a>: For Mac OS X users, we recommend our free app to sync theme files in development. 
-- Need more help? Ask a question in our <a href="http://ecommerce.shopify.com/c/ecommerce-design"> Design Forums</a>.
+- The [Skeleton Theme](https://github.com/Shopify/skeleton-theme) itself is an excellent reference point for some more complex undertakings and best practices. Be sure to check it out.
+- Shopify [Theme Gem](https://github.com/Shopify/shopify_theme) - I include a config file for using this Gem.
+
+Disclaimer
+---------------------
+I don’t actively support other users of this theme. Feel free to file Github Issues for actual bugs, or submit your own PRs, but don’t expect Shopify theme writing help from me.
