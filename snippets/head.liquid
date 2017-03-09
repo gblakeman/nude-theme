@@ -2,7 +2,7 @@
 <meta content="width=device-width,initial-scale = 1.0" name="viewport">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>{{ page_title }}{% if settings.title %} — {{ settings.title }}{% else %}{% unless page_title contains shop.name %} — {{ shop.name }}{% endunless %}{% endif %}</title>
+<title>{{ page_title }}{% if settings.title %} — {{ settings.title }}{% else %}{% unless page_title contains shop.name %} — {{ shop.name }}{% endunless %}{% endif %}{% if site.subtitle %} | {{ site.subtitle }}{% endif %}</title>
 <meta name="description" content="{% if page_description %}{{ page_description }}{% elsif site.meta_description %}{{ site.meta_description }}{% endif %}">
 <meta name="web_author" content="gb Studio / grantblakeman.com">
 
