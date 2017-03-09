@@ -23,7 +23,7 @@
          "id":        "title",
          "label":     "Site Title",
          "default":   "Best Site Ever",
-         "placeholder": "Sub-title"
+         "placeholder": "Site Title"
       },
       {
          "type":      "text",
