@@ -7,7 +7,7 @@
     {{ content_for_header }}
     {% include 'head' %}
   </head>
-  <body id="{{ page_title | handle }}" class="{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
+  <body class="{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if page.handle %} {{ page.handle }}{% endif %}" >
 
     {% comment %}
       Begin layout stuff
