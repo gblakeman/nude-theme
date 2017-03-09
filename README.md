@@ -1,21 +1,21 @@
-Nude theme
+Nude Theme
 ============
 
-The Nude theme is a stripped down Shopify theme, to be used as a “blank slate” starting point. It started as a fork of the [Skeleton Theme](https://github.com/Shopify/skeleton-theme) from Shopify. I tend to build stores for clients that are smaller in scope and found myself spending too much time un-doing a lot of the code in the _Skeleton Theme_ to get it to a point where I could start my own work. I also tend to pre-build sites in [Jekyll](https://jekyllrb.com/) (because it’s easier to work with), so this base theme incorporates some of that thinking.
+The Nude Theme is a stripped down Shopify theme, to be used as a “blank slate” starting point. It started as a fork of the [Skeleton Theme](https://github.com/Shopify/skeleton-theme) from Shopify. I tend to build stores for clients that are smaller in scope and found myself spending too much time un-doing a lot of the code in the _Skeleton Theme_ to get it to a point where I could start my own work. I also pre-build sites in [Jekyll](https://jekyllrb.com/) (because it’s easier to work with), so this base theme incorporates some things that make the transition easier.
 
 **Features:**
 
 - Some sensible theme settings that aren’t as easily over-ridden in the Shopify admin.
 - A totally blank slate on CSS.
-- An almost entirley blank slate on JS.
+- An almost entirely blank slate on JS.
 - Virtually no HTML. There is a limited structure meant to either be built upon, or reset entirely.
 - The assets directory is basically empty except for some icons and social meta images that I use as placeholders.
-- Some features have been removed since I pretty much never use them: _customer login_, and _blog comments_ are the two primary features missing.
+- Some features have been removed since I pretty much never use them: _customer login_, and _blog comments_ are the two primary missing features.
 
 Getting started
 ---------------------
 1. [Download](https://github.com/gblakeman/nude-theme/archive/v1.0.1.zip) the latest version (1.0.1)
-2. or clone the git repo: `git clone https://github.com/gblakeman/nude-theme.git`
+2. or clone the git repo: `git clone git@github.com:gblakeman/nude-theme.git`
 
 Basic structure
 ---------------
@@ -40,6 +40,10 @@ Basic structure
 │   ├── product.liquid
 │   └── search.liquid
 │   └── list-collections.liquid
+.ruby-version
+   └── set your ruby version if you use a manager and the Theme gem
+config.yml
+   └── configure your theme settings for the Theme gem
 ```
 
 Additional resources
