@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang='en'>
   <head>
-    {% include 'head' %}
     {% comment %}
       Required by Shopify and can't be moved to a snippet
     {% endcomment %}
     {{ content_for_header }}
+    {% include 'head' %}
   </head>
-  <body id="{{ page_title | handle }}" class="{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
+  <body class="{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}{% if page.handle %} {{ page.handle }}{% endif %}" >
 
     {% comment %}
       Begin layout stuff

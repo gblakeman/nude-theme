@@ -23,9 +23,7 @@
   <meta property="og:type" content="website" />
 {% endif %}
 
-{% if page_description %}
-<meta property="og:description" content="{{ page_description }}" />
-{% endif %}
+<meta property="og:description" content="{% if page_description %}{{ page_description }}{% elsif site.meta_description %}{{ site.meta_description }}{% endif %}" />
 <meta property="og:url" content="{{ canonical_url }}" />
 {% if settings.fb_site_name %}
   <meta property="og:site_name" content="{{ settings.fb_site_name }}" />
