@@ -1,9 +1,0 @@
---- 
-:api_key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-:password: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-:store: xxx.myshopify.com
-:theme_id: 123456789
-:ignore_files: 
-- settings_data.json
-- README
-- _tmp
