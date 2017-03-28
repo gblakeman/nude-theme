@@ -14,7 +14,7 @@ The Nude Theme is a stripped down Shopify theme, to be used as a “blank slate�
 
 Getting started
 ---------------------
-1. [Download](https://github.com/gblakeman/nude-theme/archive/v1.0.2.zip) the latest version (1.0.2)
+1. [Download](https://github.com/gblakeman/nude-theme/archive/v1.0.3.zip) the latest version (1.0.3)
 2. or clone the git repo: `git clone git@github.com:gblakeman/nude-theme.git`
 
 Basic structure
@@ -42,8 +42,8 @@ Basic structure
 │   └── list-collections.liquid
 .ruby-version
    └── set your ruby version if you use a manager and the Theme gem
-config.yml
-   └── configure your theme settings for the Theme gem
+config.example.yml
+   └── rename to ‘config.yml’ and configure your theme settings for the Theme gem
 ```
 
 Additional resources
