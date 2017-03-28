@@ -42,8 +42,8 @@ Basic structure
 │   └── list-collections.liquid
 .ruby-version
    └── set your ruby version if you use a manager and the Theme gem
-config.yml
-   └── configure your theme settings for the Theme gem
+config.example.yml
+   └── rename to ‘config.yml’ and configure your theme settings for the Theme gem
 ```
 
 Additional resources
