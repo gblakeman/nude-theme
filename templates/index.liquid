@@ -6,16 +6,12 @@
   <h1>Homepage</h1>
 </header>
 
-{% paginate collections by 20 %}
-  <ul class="collections-list">
-    {% for collection in collections %}
-      {% include 'collection-item' %}
-    {% endfor %}
-  </ul>
-
-  {% if paginate.pages > 1 %}
-    <nav class="pagination">
-      {{ paginate | default_pagination }}
-    </nav>
-  {% endif %}
-{% endpaginate %}
+{% comment %}
+  There is no way in the admin to manually sort collections, except by setting the 'published_at' date (via bulk editing)
+{% endcomment %}
+{% assign sorted_collections = collections | sort: 'published_at' | reverse %}
+<ul class="collections-list">
+  {% for collection in sorted_collections %}
+    {% include 'collection-item' %}
+  {% endfor %}
+</ul>
