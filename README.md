@@ -43,13 +43,13 @@ Basic structure
 .ruby-version
    └── set your ruby version if you use a manager and the Theme gem
 config.example.yml
-   └── rename to ‘config.yml’ and configure your theme settings for the Theme gem
+   └── duplicate/name as ‘config.yml’ and configure your theme settings for the Theme gem (do not commit ‘config.yml’ to protect your private info)
 ```
 
 Additional resources
 ---------------------
 - The [Skeleton Theme](https://github.com/Shopify/skeleton-theme) itself is an excellent reference point for some more complex undertakings and best practices. Be sure to check it out.
-- Shopify [Theme Gem](https://github.com/Shopify/shopify_theme) - I include a config file for using this Gem.
+- Shopify [Theme Gem](https://github.com/Shopify/shopify_theme) - I include a config file for using this Gem. Use it to watch your working theme locally and automatically upload any file changes as you work.
 
 Disclaimer
 ---------------------
