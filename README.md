@@ -1,7 +1,7 @@
 Nude Theme
 ============
 
-The Nude Theme is a stripped down Shopify theme, to be used as a “blank slate” starting point. It started as a fork of the [Skeleton Theme](https://github.com/Shopify/skeleton-theme) from Shopify. I tend to build stores for clients that are smaller in scope and found myself spending too much time un-doing a lot of the code in the _Skeleton Theme_ to get it to a point where I could start my own work. I also pre-build sites in [Jekyll](https://jekyllrb.com/) (because it’s easier to work with), so this base theme incorporates some things that make the transition easier.
+The [Nude Theme](https://github.com/gblakeman/nude-theme) is a stripped down Shopify theme, to be used as a “blank slate” starting point. It started as a fork of the [Skeleton Theme](https://github.com/Shopify/skeleton-theme) from Shopify. I tend to build stores for clients that are smaller in scope and found myself spending too much time un-doing a lot of the code in the _Skeleton Theme_ to get it to a point where I could start my own work. I also pre-build sites in [Jekyll](https://jekyllrb.com/) (because it’s easier to work with), so this base theme incorporates some things that make the transition easier.
 
 **Features:**
 
